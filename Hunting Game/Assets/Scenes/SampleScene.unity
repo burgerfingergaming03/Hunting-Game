@@ -170,7 +170,7 @@ MonoBehaviour:
   cam: {fileID: 963194228}
   speed: 6
   turnSmoothTime: 0.1
-  jumpHeight: 2
+  jumpHeight: 1
   gravity: -20
   groundCheck: {fileID: 609701663}
   groundDistance: 0
@@ -382,7 +382,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 46fff0b96fa9f5749840a481fa4706b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -459,7 +459,7 @@ Light:
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize: 20
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -494,7 +494,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -517,13 +517,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.30966306, y: 0.6771391, z: -0.31196123, w: -0.5901454}
-  m_LocalPosition: {x: -0.75, y: 10.08, z: 10.79}
+  m_LocalRotation: {x: -0.36650726, y: 0.6702254, z: -0.3160683, w: -0.56264675}
+  m_LocalPosition: {x: 38.02, y: 18.82, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 51.997, y: -460.18, z: -4.767}
+  m_LocalEulerAnglesHint: {x: 56.731, y: -467.73, z: -14.313}
 --- !u!1 &796340423
 GameObject:
   m_ObjectHideFlags: 0
